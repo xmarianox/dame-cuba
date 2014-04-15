@@ -445,6 +445,12 @@ footer .content-btn .button { font-size: 19px; padding: 14px 41px; }
 /* footer */
 #accodion_historial footer { background: #E5EFF5; padding: 10px; }
 #accodion_historial footer ul { margin: 0 auto; width: 675px; overflow: hidden; } 
-#accodion_historial footer ul li { float: left; } 
+#accodion_historial footer ul li { float: left; display: block; } 
+#accodion_historial footer ul li.red_amigos {}
+#accodion_historial footer ul li.gnk {}
+#accodion_historial footer ul li.cupon {}
+#accodion_historial footer ul li.descongelado {}
+
+
 
 

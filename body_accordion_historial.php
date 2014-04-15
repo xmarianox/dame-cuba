@@ -100,22 +100,22 @@
 </div>
 <footer>
     <ul>
-      <li>
+      <li class="red_amigos">
         <h4>Saldo Descongelado. Red Amigos</h4>
         <span class="mini_icon friend"></span>
         <span class="number">20</span>
       </li>
-      <li>
+      <li class="gnk">
         <h4>Saldo Descongelado. GNK</h4>
         <span class="mini_icon friend"></span>
         <span class="number">20</span>
       </li>
-      <li>
+      <li class="cupon">
         <h4>Saldo Descongelado. Cupón</h4>
         <span class="mini_icon friend"></span>
         <span class="number">20</span>
       </li>
-      <li>
+      <li class="descongelado">
         <h4>Saldo Total Descongelado</h4>
         <span class="mini_icon friend"></span>
         <span class="number">20</span>
