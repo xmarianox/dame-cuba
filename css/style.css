@@ -1,0 +1,450 @@
+/* http://meyerweb.com/eric/tools/css/reset/  - v2.0 | 20110126 - License: none (public domain) */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*:focus { outline: none; }
+/** =============================================
+* - SALDO CONGELADO 
+* ============================================= */
+body { margin: 0 auto; width: 100%; background-color: #FFF; color: #2a7aa7; font-family: "Myriad Pro"; }
+#wrapper { margin: 0 auto; width: 100%; }
+/** =============================================
+* - HEADER && NAV
+* ============================================= */
+header { width: 100%; height: 160px; overflow: hidden; }
+header ul li { float: left; }
+header ul li.divider { margin: 0 14px; }
+header ul li a { color: #FFF; text-decoration: none; }
+header .control { margin: 0 auto; width: 995px; } 
+header .blue-header { background-color: #277AA8; color: #FFF; height: 119px; margin: 0 auto; padding: 10px 0 18px; overflow: hidden; }
+header #logo { display: block; background: url(../images/logo.png) 0 0 no-repeat; width: 168px; height: 75px; text-indent: -9999px; float: left; margin-right: 24px; margin-top: 12px; }
+header .content-menus { float: right; width: 803px; overflow: hidden; }
+#menu_sup { width: 658px; overflow: hidden; float: right; margin-bottom: 39px; }
+#menu_sup li a { line-height: 22px; font-size: 14px; }
+#menu_sup li a#usuario { background: url(../images/sprite-mini-icons.png) 0 -1px no-repeat; padding-left: 15px; }
+#menu_sup li a#saldo_congelado { background: url(../images/sprite-mini-icons.png) 0 -19px no-repeat; padding-left: 15px; }
+#menu_sup li a span { color: #FFCC00; }
+.icon { display: inline-block; text-indent: -9999px; background: url(../images/sprite-flags.png) no-repeat; width: 22px; height: 22px; margin-left: 12px; }
+.icon-eng { background-position: -1px -31px; width: 19px; height: 19px; margin-top: 1px; margin-left: 4px; }
+#menu_inf { width: 445px; float: left; overflow: hidden; padding-top: 10px }
+#menu_inf li a { font-weight: bold; font-size: 17px; }
+header .content-menus .button { float: right; }
+header nav { width: 100%; overflow: hidden; border-bottom: 2px solid #FFCC00; margin: 0 auto;}
+header nav ul { margin: 0 auto; width: 995px; }
+header nav ul li a { color: #939598; padding: 10px 23px; display: inline-block; }
+header nav ul li a:hover { background-color: #FFCC00; color: #0454A3; }
+header nav ul li.divider { margin: 0; color: #939598; line-height: 36px; font-size: 18px; }
+/** =============================================
+* - CUSTOM BUTTOM 
+* - - -
+*	button-azul - #2A7AA7
+*	button-azul:hover - #3E92C2
+* - - -
+*	button-amarillo - #FFCC00
+*	button-amarillo:hover - #FFDC52
+* - - -
+*	button-verde - #1AB209
+*	button-verde:hover - #51C445
+* - - -
+*	button-rojo - #CD221E
+*	button-rojo:hover - #C2413E
+* ============================================= */
+.button { display: inline-block; text-decoration: none; padding: 10px 23px; border-radius: 5px; font-weight: bold; font-size: 13px; color: #FFF; text-transform: uppercase; border: 0; }
+/* button blue */
+.button.blue { background-color: #2A7AA7 }
+.button.blue:hover { background-color: #3E92C2 }
+/* button yellow */
+.button.yellow { background-color: #FFCC00; color: #277AA8 }
+.button.yellow:hover { background-color: #FFDC52 }
+/* button red */
+.button.red { background-color: #CD221E }
+.button.red:hover { background-color: #C2413E }
+/* button green */
+.button.green { background-color: #1AB209 }
+.button.green:hover { background-color: #51C445 }
+/** =============================================
+* - SECTION
+* - - ARTICLE
+* ============================================= */
+section { width: 100%; margin: 0 auto; }
+article { margin: 35px auto; width: 1022px; overflow: hidden; }
+/* descripcion del sistema */
+.info_sis { float: left; width: 621px }
+.info_sis h1 { background: url(../images/icon_saldo_congelado.png) 0 0 no-repeat; padding-left: 50px; height: 50px; font-size: 27px; font-weight: bold; padding-top: 20px; margin-bottom: 30px; }
+.info_sis p { font-size: 15px; line-height: 20px; font-weight: normal; }
+.content_saldo { background: url(../images/bg_content_saldo.png) 0 0 no-repeat; width: 331px; height: 140px; overflow: hidden; float: right; margin-top: 5px; padding-top: 16px; padding-left: 88px; color: #FFF; }
+.content_saldo h2 { text-transform: uppercase; font-size: 18px; line-height: 22px; margin-bottom: 16px; margin-left: 5px; }
+.content_saldo .saldo { color: #FFCC00; display: block; font-size: 55px; line-height: 50px; font-weight: bold; margin-bottom: 13px; }
+.content_saldo .saldo span { font-weight: normal; font-size: 34px; line-height: 30px; }
+.content_saldo a { color: #FFF; font-size: 16px; }
+.content_saldo a:hover { text-decoration: none; }
+/* sistema */
+article h2 { font-size: 27px; font-weight: bold; text-transform: uppercase; margin-bottom: 28px; }
+/* accordion head */
+.header_accordion { background: #E5EFF5; height: 72px; width: 100%; border-radius: 15px; padding: 10px 19px 15px 28px; overflow: hidden; }
+.header_accordion h3 { float: left; background: url(../images/sprite_accordion.png) 0 0 no-repeat; padding-left: 47px; padding-top: 14px; height: 36px; font-weight: bold; font-size: 20px; margin-top: 6px; cursor: pointer; }
+.header_accordion ul { float: left; margin-left: 60px; }
+.header_accordion ul li { float: left; }
+.header_accordion ul li a { text-decoration: none; font-size: 12px; display: block; border-right: 1px solid #FFF; overflow: hidden; }
+.header_accordion ul li a h4 { margin-bottom: 6px }
+.header_accordion ul li a#amigos { color: #2A7AA7; width: 129px; }
+.header_accordion ul li a#descongelados { color: #1AB209; width: 188px; padding-left: 29px; }
+.header_accordion ul li a#pendientes { color: #2A7AA7; width: 238px; padding-left: 33px; }
+.header_accordion ul li a#alertas { color: #CD221E; width: 226px; border-right: 0px; padding-left: 35px; }
+/** =============================================
+* - ICONOS
+* ============================================= */
+.mini_icon { display: inline-block; background: url(../images/sprite_accordion.png) no-repeat; height: 27px; width: 24px; text-indent: -9999px; }
+.mini_icon.friend 		{ background-position: -6px -52px  }
+.mini_icon.descongelado { background-position: -4px -90px  }
+.mini_icon.pendiente 	{ background-position: -4px -129px }
+.mini_icon.alertas 		{ background-position: 0px -163px; width: 30px;  }
+/* icono para las notas */
+.mini_icon.nota { background: url(../images/icon_nota.png) 0 0 no-repeat; width: 24px; height: 21px; }
+/* icono amigo red */
+.mini_icon.friend_red { background: url(../images/icon_friend_red.png) 0 0 no-repeat; width: 28px; height: 31px; }
+.mini_icon.friend_white { background: url(../images/icon_friend_white.png) 0 0 no-repeat; width: 24px; height: 27px; }
+.icon_canjea { display: inline-block; background: url(../images/sprite-canje.png) no-repeat; height: 53px; width: 52px; text-indent: -9999px; }
+.icon_canjea.descongela { background-position: -4px -63px; height: 52px; width: 43px; } 
+.icon_canjea.logo { background-position: 0 0; }
+.number { font-size: 25px; font-weight: bold; vertical-align: bottom; }
+.icon_historial { display: inline-block; background: url(../images/sprite-historial.png) no-repeat; height: 21px; width: 18px; text-indent: -9999px; }
+.icon_historial.friend { background-position: -10px -102px; }
+.icon_historial.cupon { background-position: -6px -129px; width: 27px; }
+.icon_historial.guanikikis { background-position: -8px -156px; width: 20px; }
+#btn_open_accordion, #btn_open_accordion_hist { background: url(../images/icon_accordion.png) 0 0 no-repeat; width: 15px; height: 17px; display: block; float: left; text-indent: -9999px; margin: 20px 0; }
+/* accordion body */
+.body_accordion { border: 2px solid #2A7AA7; border-top: 0px; width: 995px; height: 311px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; margin: 0 auto; overflow: hidden; /*display: none;*/ }
+#tab_control { width: 341px; height: 100%; overflow: hidden; float: left; }
+#tab_control header { width: 100%; height: 31px; background: #2A7AA7; color: #FFF; padding: 10px 14px 7px 18px;  }
+#tab_control header h3 {font-size: 13px; font-weight: normal; display: inline-block; width: 100%; }
+#tab_control header h3 span { display: inline-block; float: right; border-left: 1px solid #FFF; padding-left: 7px; line-height: 13px; }
+#tab_control ul { padding-top: 6px; padding-left: 10px }
+#tab_control ul li { height: 23px; overflow: hidden; margin: 4px 0; }
+#tab_control ul li a { text-decoration: none; display: inline-block; width: 100%; height: 23px; border-radius: 7px 0 0 7px; padding: 6px 7px; font-size: 14px; }
+#tab_control ul li a span { font-weight: bold; }
+#tab_control ul li a small { display: inline-block; float: right; width: 40px; margin-right: 42px; }
+/* colores - normal */
+#tab_control ul li a.red { color: #CD221E; }
+#tab_control ul li a.green { color: #1AB209; }
+/* colores -activos */
+#tab_control ul li.ui-tabs-active a.red { background: #CD221E; color: #FFF }
+#tab_control ul li.ui-tabs-active a.green { background: #1AB209; color: #FFF }
+#tab_control ul li a.red:hover { background: #CD221E; color: #FFF }
+#tab_control ul li a.green:hover { background: #1AB209; color: #FFF }
+/* tabs */
+.tabs_contents { float: left; width: 650px; height: 100%; overflow: hidden; }
+#content_alertas, #pendientes_de_registro, 
+#registrados_sin_ingreso, #pendiente_de_pago { border-left: 7px solid #CD221E; }
+#amigos_invitados, #amigos_registrados, #ingresado_saldo { border-left: 7px solid #1AB209; }
+/*
+*	contenido Alertas
+*/
+#content_alertas { background: #E5EFF5; }
+#content_alertas ul { width: 100%; background: #FFF; }
+#content_alertas ul li { height: 89px; border-bottom: 1px solid #7EBCDE; overflow: hidden; }
+#content_alertas ul li:last-child { border-bottom: 0; }
+.content_notificacion { width: 352px; float: left; padding-top: 30px; padding-left: 30px; color: #CD221E;  }
+.content_notificacion p { font-weight: bold; }
+.content_notificacion p .number { font-size: 35px; line-height: 25px; }
+.content_descongelaria { width: 125px; float: left; padding-top: 10px }
+.content_descongelaria p { text-transform: uppercase; font-size: 13px; margin-bottom: 5px; }
+.content_descongelaria .number { font-size: 35px; line-height: 25px; }
+.content_botones { width: 146px; float: right; padding-top: 18px; }
+.content_botones .button { width: 125px; text-align: center; padding: 5px 10px; font-weight: normal; margin: 2px 0; text-transform: uppercase; font-size: 12px }
+/*
+*	Contenido amigos en tu red
+*/
+#amigos_invitados header { width: 100%; padding: 18px 20px 0; height: 75px }
+#amigos_invitados header h3 { display: block; float: left; font-weight: bold; font-size: 20px; }
+#amigos_invitados header h3 .number { font-size: 35px; line-height: 26px; }
+.buscador { float: right; padding-left: 25px; background: url(../images/icon-seach.png) 0 5px no-repeat; }
+.buscador input { border: 2px solid #2A7AA7; border-radius: 6px; background: #F3F4F5; width: 170px; height: 32px; padding-left: 13px; color: #999999; }
+/** =============================================
+* - SCROLLBAR GOOGLE CHROME
+* - SCROLLBAR BASE CSS
+* ============================================= */
+.scroll-wrapper { overflow: hidden !important; padding: 0 !important; position: relative; }
+.scroll-wrapper > .scroll-content { border: none !important; box-sizing: content-box !important; height: auto; left: 0; margin: 0; max-height: none !important; max-width: none !important; overflow: scroll !important; padding: 0; position: relative !important; top: 0; width: auto !important; }
+.scroll-wrapper > .scroll-content::-webkit-scrollbar { height: 0; width: 0; }
+.scroll-element { display: none; }
+.scroll-element.scroll-x.scroll-scrollx_visible, 
+.scroll-element.scroll-y.scroll-scrolly_visible { display: block; }
+.scroll-element .scroll-bar, .scroll-element .scroll-arrow { cursor: default; }
+/*************** SCROLLBAR GOOGLE CHROME ***************/
+.scrollbar-chrome { max-height: 164px; overflow: auto; }
+.scrollbar-chrome > .scroll-element, 
+.scrollbar-chrome > .scroll-element div{ border: none; margin: 0; overflow: hidden; padding: 0; position: absolute; z-index: 10; }
+.scrollbar-chrome > .scroll-element {background-color: #ffffff;}
+.scrollbar-chrome > .scroll-element div {display: block;height: 100%;left: 0;top: 0;width: 100%;}
+.scrollbar-chrome > .scroll-element .scroll-element_outer {}
+.scrollbar-chrome > .scroll-element .scroll-element_track { background: #f1f1f1; border: 1px solid #dbdbdb; }
+.scrollbar-chrome > .scroll-element.scroll-x { }
+.scrollbar-chrome > .scroll-element.scroll-y { height: 100%; min-height: 100%; right: 0; top: 0; width: 16px; }
+.scrollbar-chrome > .scroll-element .scroll-bar { background-color: #d9d9d9; border: 1px solid #bdbdbd; cursor: default; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+.scrollbar-chrome > .scroll-element .scroll-bar:hover { background-color: #c2c2c2; border-color: #a9a9a9; }
+.scrollbar-chrome > .scroll-element.scroll-draggable .scroll-bar { background-color: #919191; border-color: #7e7e7e; }
+/* scrollbar height/width & offset from container borders */
+.scrollbar-chrome > .scroll-content.scroll-scrolly_visible { left: -16px; margin-left: 16px; }
+.scrollbar-chrome > .scroll-content.scroll-scrollx_visible { top:  -16px; margin-top:  16px; }
+.scrollbar-chrome > .scroll-element.scroll-x .scroll-bar { height: 8px; min-width: 10px; top: 3px; }
+.scrollbar-chrome > .scroll-element.scroll-y .scroll-bar { left: 3px; min-height: 10px; width: 8px; }
+.scrollbar-chrome > .scroll-element.scroll-x .scroll-element_outer { border-left: 1px solid #dbdbdb; }
+.scrollbar-chrome > .scroll-element.scroll-x .scroll-element_track { height: 14px; left: -3px; }
+.scrollbar-chrome > .scroll-element.scroll-x .scroll-element_size { height: 14px; left: -4px; }
+.scrollbar-chrome > .scroll-element.scroll-y .scroll-element_outer { border-top: 1px solid #dbdbdb; }
+.scrollbar-chrome > .scroll-element.scroll-y .scroll-element_track { top: -3px; width: 14px; }
+.scrollbar-chrome > .scroll-element.scroll-y .scroll-element_size { top: -4px; width: 14px; }
+/* update scrollbar offset if both scrolls are visible */
+.scrollbar-chrome > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size { left: -19px; }
+.scrollbar-chrome > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size { top: -19px; }
+.scrollbar-chrome > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track { left: -19px; }
+.scrollbar-chrome > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track { top: -19px; }
+/*  tabla de amigos */
+table { width: 100%;  }
+thead { background: #2A7AA7; color: #FFF; font-size: 11px }
+thead th { padding: 7px 0 6px; font-weight: normal; border-left: 1px solid #FFF; }
+thead th:first-child { border-left:0; }
+tbody tr { border-bottom: 1px solid #2A7AA7; }
+tbody td { padding: 0; height: 31px; font-size: 13px; font-weight: normal; text-align:center; vertical-align: middle; }
+th.nombre, td.nombre { width: 196px }
+th.fecha_registro, td.fecha_registro { width: 107px }
+th.descongelado, td.descongelado { width: 104px }
+th.nota, td.nota { width: 64px }
+th.accion { width: 173px } 
+td.accion { width: 158px }
+td.accion .button.green { width: 100px; padding: 5px 2px; font-weight: normal; margin-right: 5px; font-size: 11px; }
+td.accion .button.red { width: 21px; padding: 5px 5px 3px;  }
+/* botones inferiores */
+.footer_btns { width: 100%; overflow: hidden; background-color: #E5EFF5; padding: 12px 25px; }
+.footer_btns .control { float: right; }
+.footer_btns .button { width: 150px; text-align: center; padding: 5px 10px; font-weight: normal; margin: 2px 0; text-transform: uppercase; font-size: 12px; }
+/*
+*	pendientes_de_registro
+*/
+#pendientes_de_registro header { width: 100%; padding: 18px 20px 0; height: 75px }
+#pendientes_de_registro header h3 { display: block; float: left; font-weight: bold; font-size: 20px; color: #CD221E; }
+#pendientes_de_registro header h3 .number { font-size: 35px; line-height: 26px; }
+#pendientes_de_registro th.nombre, 
+#pendientes_de_registro td.nombre { width: 135px }
+#pendientes_de_registro th.fecha_caducidad, 
+#pendientes_de_registro td.fecha_caducidad { width: 128px }
+#pendientes_de_registro th.recordatorio, 
+#pendientes_de_registro td.recordatorio { width: 120px }
+#pendientes_de_registro th.congelado, 
+#pendientes_de_registro td.congelado { width: 70px }
+#pendientes_de_registro th.nota, 
+#pendientes_de_registro td.nota { width: 49px }
+#pendientes_de_registro th.accion { width: 150px } 
+#pendientes_de_registro td.accion { width: 133px }
+/*
+* 	amigos_registrados
+*/
+#amigos_registrados header { width: 100%; padding: 18px 20px 0; height: 75px }
+#amigos_registrados header h3 { display: block; float: left; font-weight: bold; font-size: 20px; }
+#amigos_registrados header h3 .number { font-size: 35px; line-height: 26px; }
+#amigos_registrados th.nombre, 
+#amigos_registrados td.nombre { width: 135px }
+#amigos_registrados th.fecha_caducidad, 
+#amigos_registrados td.fecha_caducidad { width: 115px }
+#amigos_registrados th.recordatorio, 
+#amigos_registrados td.recordatorio { width: 120px }
+#amigos_registrados th.congelado, 
+#amigos_registrados td.congelado { width: 85px }
+#amigos_registrados th.nota, 
+#amigos_registrados td.nota { width: 49px }
+#amigos_registrados th.accion { width: 150px } 
+#amigos_registrados td.accion { width: 133px }
+/*
+* 	registrados_sin_ingreso
+*/
+#registrados_sin_ingreso header { width: 100%; padding: 18px 20px 0; height: 75px }
+#registrados_sin_ingreso header h3 { display: block; float: left; font-weight: bold; font-size: 20px; color: #CD221E; }
+#registrados_sin_ingreso header h3 .number { font-size: 35px; line-height: 26px; }
+#registrados_sin_ingreso th.nombre, 
+#registrados_sin_ingreso td.nombre { width: 135px }
+#registrados_sin_ingreso th.fecha_caducidad, 
+#registrados_sin_ingreso td.fecha_caducidad { width: 115px }
+#registrados_sin_ingreso th.recordatorio, 
+#registrados_sin_ingreso td.recordatorio { width: 120px }
+#registrados_sin_ingreso th.congelado, 
+#registrados_sin_ingreso td.congelado { width: 85px }
+#registrados_sin_ingreso th.nota, 
+#registrados_sin_ingreso td.nota { width: 49px }
+#registrados_sin_ingreso th.accion { width: 150px } 
+#registrados_sin_ingreso td.accion { width: 133px }
+/*
+* 	ingresado_saldo
+*/
+#ingresado_saldo header { width: 100%; padding: 18px 20px 0; height: 75px }
+#ingresado_saldo header h3 { display: block; float: left; font-weight: bold; font-size: 20px; }
+#ingresado_saldo header h3 .number { font-size: 35px; line-height: 26px; }
+#ingresado_saldo th.nombre, 
+#ingresado_saldo td.nombre { width: 135px }
+#ingresado_saldo th.fecha_caducidad, 
+#ingresado_saldo td.fecha_caducidad { width: 115px }
+#ingresado_saldo th.recordatorio, 
+#ingresado_saldo td.recordatorio { width: 120px }
+#ingresado_saldo th.congelado, 
+#ingresado_saldo td.congelado { width: 85px }
+#ingresado_saldo th.nota, 
+#ingresado_saldo td.nota { width: 49px }
+#ingresado_saldo th.accion { width: 150px } 
+#ingresado_saldo td.accion { width: 133px }
+/*
+* 	pendiente_de_pago
+*/
+#pendiente_de_pago header { width: 100%; padding: 18px 20px 0; height: 75px }
+#pendiente_de_pago header h3 { display: block; float: left; font-weight: bold; font-size: 20px; color: #CD221E; }
+#pendiente_de_pago header h3 .number { font-size: 35px; line-height: 26px; }
+#pendiente_de_pago th.nombre, 
+#pendiente_de_pago td.nombre { width: 135px }
+#pendiente_de_pago th.fecha_caducidad, 
+#pendiente_de_pago td.fecha_caducidad { width: 115px }
+#pendiente_de_pago th.recordatorio, 
+#pendiente_de_pago td.recordatorio { width: 120px }
+#pendiente_de_pago th.congelado, 
+#pendiente_de_pago td.congelado { width: 85px }
+#pendiente_de_pago th.nota, 
+#pendiente_de_pago td.nota { width: 49px }
+#pendiente_de_pago th.accion { width: 150px } 
+#pendiente_de_pago td.accion { width: 133px }
+/*
+*	tabs_descongelar_saldo
+*/
+#menu_tabs_descongelar { overflow: hidden; width: 870px; margin: 0 auto; }
+#menu_tabs_descongelar li a { float: left; margin: 0 19px; width: 252px; height: 60px; border: 1px solid #2A7AA7; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom: 0; overflow: hidden; padding: 10px; display: block; text-decoration: none; }
+#menu_tabs_descongelar li.ui-tabs-active a { background: #E5EFF5; }
+#menu_tabs_descongelar li.first_tab a { padding-left: 18px; }
+/* iconos para los tabs */
+.icon_tab { display: inline-block; background: url(../images/icons_tabs.png) no-repeat; height: 36px; width: 32px; text-indent: -9999px; float: left; }
+.icon_tab.canjea { background-position: -39px -6px; width: 37px;  }
+.icon_tab.cupon  { background-position: -87px -5px; width: 38px;  }
+#menu_tabs_descongelar li a h3 { display: inline-block; color: #2a7aa7; font-weight: bold; text-transform: uppercase; margin-left: 5px; font-size: 18px; float: left; margin-top: 13px; }
+/* primer tab */
+.sub_header { background: #E5EFF5; height: 99px; width: 100%; border-radius: 15px; padding: 30px 48px 0; overflow: hidden; }
+.tabs_descongelar { border: 2px solid #2A7AA7; border-top: 0px; width: 995px; height: auto; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; margin: 0 auto; overflow: hidden; padding: 35px 0 0; }
+.tabs_descongelar form { overflow: hidden; width: 94%; height: 71px; border-bottom: 1px solid #C3C3C4; margin: 0 auto; }
+.tabs_descongelar input { height: 38px; width: 193px; background: #F3F4F5; border: 1px solid #C3C3C4; border-radius: 5px; padding-left: 13px; margin-right: 21px; }
+.tabs_descongelar input#email { width: 250px; }
+.tabs_descongelar input#tel { width: 212px }
+.tabs_descongelar .button { padding: 11px 33px }
+/* header listado de amigos */
+.content-resultados { margin-top: 30px; padding: 0 25px; }
+.content-resultados header { height: 19px; color: #666666; }
+.content-resultados header ul li { font-size: 13px; overflow: hidden; padding-left: 5px; }
+.content-resultados header li.nombre { width: 263px; padding-left: 60px; }
+.content-resultados header li.email { width: 264px; }
+.content-resultados header li.tel { width: 177px; }
+.content-resultados header li.saldo { width: 226px }
+/* lista de amigos invitados */
+.lista_de_amigos { overflow: hidden; margin-bottom: 30px; }
+.lista_de_amigos li.row { width: 100%; overflow: hidden; border: 1px solid #C4D9E6; margin-bottom: 3px; border-radius: 8px; height: 47px; }
+.lista_de_amigos li ul li { float: left; height: 45px; overflow: hidden; }
+.lista_de_amigos li ul li.first { background-color: #3079AB; width: 46px; padding: 9px 10px; }
+.lista_de_amigos li ul li.nombre {  width: 215px; padding: 15px; border-right: 1px solid #C4D9E6; }
+.lista_de_amigos li ul li.email { width: 264px; padding: 15px 7px; border-right: 1px solid #C4D9E6; }
+.lista_de_amigos li ul li.tel { width: 177px; padding: 15px 11px; font-weight: bold; border-right: 1px solid #C4D9E6; }
+.lista_de_amigos li ul li.saldo { width: 195px; padding: 15px 17px; font-weight: bold; border-right: 1px solid #C4D9E6; }
+.lista_de_amigos li ul li.saldo span { font-weight: normal; }
+.lista_de_amigos li ul li.content_btn { width: 42px; padding: 13px 12px; }
+.lista_de_amigos li ul li.content_btn .button.red { width: 21px; padding: 5px 6px 3px;  }
+/* barra de resumen */
+.resumen { background: #F3F4F5; width: 100%; height: 45px; }
+.resumen .control { margin: 0 auto; width: 757px; height: 100%; overflow: hidden; padding: 7px 0; }
+.resumen .control h3 { font-weight: bold; font-size: 24px; line-height: 24px; margin-top: 6px; display: inline-block; float: left; }
+.resumen .control ul { overflow: hidden; float: right; height: 100%; }
+.resumen .control ul li { float: left; border-left: 1px solid #C4D9E6; height: 100%; padding-left: 15px; }
+.resumen .control ul li.first { width: 269px }
+.resumen .control ul li.second { width: 276px; }
+.resumen .control ul li p { color: #666; display: inline-block; vertical-align: super; font-size: 14px; margin-right: 12px; }
+.resumen .control ul li .number { font-size: 30px; line-height: 27px }
+.resumen .control ul li .number span { font-size: 20px; line-height: 17px; }
+/* footer */
+footer { width: 100%; overflow: hidden; height: 100%; padding: 23px 27px; }
+footer .nota { width: 632px; float: left; font-size: 14px; padding-left: 35px; background: url(../images/icon_advertencia.png) 0 0 no-repeat; }
+footer .content-btn { float: right; }
+footer .content-btn .button { font-size: 19px; padding: 14px 41px; }
+/*
+*	Canjear cupon
+*/
+#canjear_cupon form { width: 648px; margin: 0 auto; border-bottom: 0; }
+#canjear_cupon form .icon_tab { margin-top: 5px; }
+#canjear_cupon form input { width: 347px; margin-left: 12px; margin-right: 22px; }
+#canjear_cupon form .button { padding: 11px 73px; font-size: 16px; color: #51C445; }
+#canjear_cupon .resumen .control { width: 940px }
+#canjear_cupon .resumen .control h3 { margin-right: 28px; }
+#canjear_cupon .resumen .control ul { float: left; }
+/*
+*	Cajea Guanikikis	
+*/
+#canjea_guanikikis .content-spinner { padding: 0 39px; }
+#canjea_guanikikis .content-spinner .control { border-bottom: 1px solid #C3C3C4; overflow: hidden; padding-bottom: 17px; }
+#canjea_guanikikis .guanikikis { background: url(../images/bg-canjea.png) 0 0 no-repeat; width: 588px; height: 121px; margin-left: 35px; float: left; }
+#canjea_guanikikis .saldo { width: 214px; float: right; margin-right: 35px; }
+#canjea_guanikikis .saldo h3 { text-transform: uppercase; font-weight: bold; font-size: 12px; margin: 10px 0 14px; }
+#canjea_guanikikis .saldo .icon_canjea { vertical-align: middle; }
+#canjea_guanikikis .saldo .number { font-size: 32px; line-height: 27px; vertical-align: middle; }
+#canjea_guanikikis .saldo .number span { font-size: 20px; line-height: 17px; }
+#canjea_guanikikis .col { float: left; overflow: hidden; height: 100%; }
+#canjea_guanikikis .col-left {  width: 285px; padding-left: 52px; }
+#canjea_guanikikis .col-right { width: 254px; padding-left: 38px; }
+#canjea_guanikikis .col h3 { text-transform: uppercase; font-weight: bold; font-size: 12px; margin: 10px 0 14px; }
+#canjea_guanikikis .col .icon_canjea { vertical-align: middle; }
+#canjea_guanikikis .col .number { font-size: 32px; line-height: 27px; vertical-align: middle; }
+#canjea_guanikikis footer .button { width: 251px; text-align: center; }
+/* spinner buttons */
+#canjea_guanikikis .col #spinner { background: #FFF; border-color: #2A7AA7; color: #2A7AA7; font-weight: bold; width: 173px; height: 59px; text-align: right; padding-right: 15px; margin-right: 2px; float: left; font-size: 30px }
+#canjea_guanikikis .col .ui-spinner { display: block; }
+.ui-spinner-button.ui-spinner-up { display: inline-block; background: url(../images/spinner-control.png) 0 0 no-repeat; width: 28px; height: 28px; text-indent: -9999px; }
+.ui-spinner-button.ui-spinner-down { display: inline-block; background: url(../images/spinner-control.png) 0 -30px no-repeat; width: 28px; height: 28px; text-indent: -9999px; margin-top: 3px; }
+/*
+*	Historial
+*/
+#accodion_historial .header_accordion h3 { background: url(../images/sprite-historial.png) 0 0 no-repeat; }
+#accodion_historial .body_accordion { height: 328px; }
+#accodion_historial .content-filtrar { float: left; margin-left: 77px; overflow: hidden; margin-right: 20px; }
+#accodion_historial .control { float: left; margin-right: 6px; }
+#accodion_historial .control.last { margin-left: 22px; }
+#accodion_historial .control label { font-size: 14px; }
+#accodion_historial .date_picker { background: #FFF url(../images/sprite-historial.png) -8px -71px no-repeat; border: 2px solid #2A7AA7; border-radius: 7px; width: 114px; height: 29px; padding-left: 25px; display: block; color: #2A7AA7; }
+/* datepicker custom styles */
+#ui-datepicker-div { background: #FFF; border: 1px solid #2A7AA7; border-radius: 7px; padding: 10px; width: 200px; display: none; }
+#ui-datepicker-div .ui-state-default { color: #2A7AA7; text-decoration: none; }
+#ui-datepicker-div .ui-datepicker-title { text-align: center; text-transform: uppercase; }
+#ui-datepicker-div .ui-datepicker-prev { display: inline-block; float: left; cursor: pointer; }
+#ui-datepicker-div .ui-datepicker-next { display: inline-block; float: right; cursor: pointer; }
+.styled-select select { background: transparent; width: 188px; padding-left: 32px; font-size: 13px; line-height: 1; border: 0; border-radius: 0; height: 26px; -webkit-appearance: none; color: #2A7AA7; }
+.styled-select { display: block; width: 192px; height: 29px; border-radius: 6px; background: #FFF url(../images/sprite-historial.png) -3px -44px no-repeat; border: 2px solid #2A7AA7; overflow: hidden; }
+/* THS */
+#accodion_historial .scrollbar-chrome { max-height: 226px; background: #FFF; }
+#accodion_historial thead th { height: 30px; padding: 11px 0 6px;  }
+#accodion_historial th.nombre { width: 160px }
+#accodion_historial th.accion { width: 123px }
+/* TDS */
+#accodion_historial tbody td { height: 37px; }
+#accodion_historial td.content_icon { width: 56px }
+#accodion_historial td.nombre { width: 104px }
+#accodion_historial td.origen,
+#accodion_historial th.origen { width: 61px }
+#accodion_historial td.fecha,
+#accodion_historial th.fecha { width: 77px }
+#accodion_historial td.descongelado,
+#accodion_historial th.descongelado { width: 87px }
+#accodion_historial td.congelado,
+#accodion_historial th.congelado { width: 71px }
+#accodion_historial td.notas,
+#accodion_historial th.notas  { width: 414px }
+#accodion_historial td.accion { width: 107px }
+/* footer */
+#accodion_historial footer { background: #E5EFF5; padding: 10px; }
+#accodion_historial footer ul { margin: 0 auto; width: 675px; overflow: hidden; } 
+#accodion_historial footer ul li { float: left; } 
+
+
