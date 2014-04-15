@@ -102,23 +102,23 @@
     <ul>
       <li class="red_amigos">
         <h4>Saldo Descongelado. Red Amigos</h4>
-        <span class="mini_icon friend"></span>
-        <span class="number">20</span>
+        <span class="mini_icon amigos"></span>
+        <span class="number">$30</span>
       </li>
       <li class="gnk">
         <h4>Saldo Descongelado. GNK</h4>
-        <span class="mini_icon friend"></span>
-        <span class="number">20</span>
+        <span class="mini_icon gnk"></span>
+        <span class="number">$10</span>
       </li>
       <li class="cupon">
         <h4>Saldo Descongelado. Cupón</h4>
-        <span class="mini_icon friend"></span>
-        <span class="number">20</span>
+        <span class="mini_icon cupon"></span>
+        <span class="number">$5</span>
       </li>
       <li class="descongelado">
         <h4>Saldo Total Descongelado</h4>
-        <span class="mini_icon friend"></span>
-        <span class="number">20</span>
+        <span class="mini_icon pendiente"></span>
+        <span class="number">$45</span>
       </li>
     </ul>
 </footer>

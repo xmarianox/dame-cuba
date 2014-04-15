@@ -118,6 +118,9 @@ article h2 { font-size: 27px; font-weight: bold; text-transform: uppercase; marg
 .icon_historial.friend { background-position: -10px -102px; }
 .icon_historial.cupon { background-position: -6px -129px; width: 27px; }
 .icon_historial.guanikikis { background-position: -8px -156px; width: 20px; }
+.mini_icon.amigos { background: url(../images/sprite-historial.png) -6px -182px no-repeat; width: 31px; }
+.mini_icon.gnk { background: url(../images/sprite-historial.png) -3px -215px no-repeat; width: 26px; }
+.mini_icon.cupon { background: url(../images/sprite-historial.png) 1px -242px no-repeat; width: 32px; }
 #btn_open_accordion, #btn_open_accordion_hist { background: url(../images/icon_accordion.png) 0 0 no-repeat; width: 15px; height: 17px; display: block; float: left; text-indent: -9999px; margin: 20px 0; }
 /* accordion body */
 .body_accordion { border: 2px solid #2A7AA7; border-top: 0px; width: 995px; height: 311px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; margin: 0 auto; overflow: hidden; /*display: none;*/ }
@@ -443,7 +446,7 @@ footer .content-btn .button { font-size: 19px; padding: 14px 41px; }
 #accodion_historial th.notas  { width: 414px }
 #accodion_historial td.accion { width: 107px }
 /* footer */
-#accodion_historial footer { background: #E5EFF5; padding: 10px; }
+#accodion_historial footer { background: #E5EFF5; padding: 15px; height: 71px }
 #accodion_historial footer ul { margin: 0 auto; width: 695px; overflow: hidden; } 
 #accodion_historial footer ul li { float: left; display: block; } 
 #accodion_historial footer ul li.red_amigos { width: 180px; margin-right: 30px; }
