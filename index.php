@@ -140,8 +140,16 @@
                 </div>    
             </div><!-- accodion_historial -->
         </article>
-
     </section>
+
+    <section class="overlay">
+        <article class="modal">
+            <h2>TU AMIGO HA SIDO INVITADO CON EXITO</h2>
+            <p>CUANDO SE REGISTRE<br/> DISFRUTARÁS DE TU SALDO !!!</p>
+            <a href="javascript:;" class="button green" title="Aceptar" id="btn_aceptar">Aceptar</a>
+        </article>
+    </section>
+
 </div><!-- #wrapper -->
 <!-- SCRIPTS -->
 <script type="text/javascript" src="scripts/jquery-1.10.2.js"></script>

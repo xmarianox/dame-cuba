@@ -43,7 +43,7 @@
             <td class="fecha_caducidad">18/10/2013</td>
             <td class="recordatorio">11/10/2013</td>
             <td class="congelado">0/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a></td>
           </tr>
           <tr>
@@ -51,7 +51,7 @@
             <td class="fecha_caducidad">18/10/2013</td>
             <td class="recordatorio">11/10/2013</td>
             <td class="congelado">0/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a></td>
           </tr>
           <tr>
@@ -59,7 +59,7 @@
             <td class="fecha_caducidad">18/10/2013</td>
             <td class="recordatorio">11/10/2013</td>
             <td class="congelado">0/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a></td>
           </tr>
           <tr>
@@ -67,7 +67,7 @@
             <td class="fecha_caducidad">18/10/2013</td>
             <td class="recordatorio">11/10/2013</td>
             <td class="congelado">4/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a></td>
           </tr>
           <tr>
@@ -75,7 +75,7 @@
             <td class="fecha_caducidad">18/10/2013</td>
             <td class="recordatorio">11/10/2013</td>
             <td class="congelado">0/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a></td>
           </tr>
         </tbody>

@@ -37,5 +37,21 @@ $(document).ready(function () {
 	$('#datepicker_desde').datepicker();	
 	
 	$('#datepicker_hasta').datepicker();
-	
+
+	/* tooltips
+	$('.mini_icon.nota').click(function(){
+		$('.mini_icon.nota').tooltip({ tooltipClass: "custom_tooltip" });
+	});
+	*/
+	$('.mini_icon.nota').tooltip({ tooltipClass: "custom_tooltip" });
+
+	// modal
+	$('#btn_invitar').click(function(){
+		$('.overlay').toggle('fade');
+	});
+
+	$('#btn_aceptar').click(function(){
+		$('.overlay').toggle('fade');
+	});
+
 });

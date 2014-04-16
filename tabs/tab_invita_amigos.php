@@ -74,7 +74,7 @@
 			urpis, pellentesque eget suscipit augue turpis, pellentesque eget suscipit non, elementum nec ligula. Proin semper lorem sed ipsum placerat mollis. Integer quis consequat nisl. Morbi varius tellus sit amet risus tristique, ac porta mi tristique. Aliquam eu adipiscing magna. Phasellus mauris quam</p>
 		</div>
 		<div class="content-btn">
-			<a href="#" class="button green" title="enviar invitación">enviar invitación</a>
+			<a href="javascript:;" class="button green" title="enviar invitación" id="btn_invitar">enviar invitación</a>
 		</div>
 	</footer>
 </div>

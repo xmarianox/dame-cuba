@@ -39,42 +39,42 @@
             <td class="nombre">Perico Perez 03</td>
             <td class="fecha_registro">18/10/2013</td>
             <td class="descongelado">5/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a> <a href="#" class="button red" title="ELIMINAR">X</a></td>
           </tr>
           <tr>
             <td class="nombre">Perico Perez 04</td>
             <td class="fecha_registro">18/10/2013</td>
             <td class="descongelado">5/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a> <a href="#" class="button red" title="ELIMINAR">X</a></td>
           </tr>
           <tr>
             <td class="nombre">Perico Perez 04</td>
             <td class="fecha_registro">18/10/2013</td>
             <td class="descongelado">5/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a> <a href="#" class="button red" title="ELIMINAR">X</a></td>
           </tr>
           <tr>
             <td class="nombre">Perico Perez 04</td>
             <td class="fecha_registro">18/10/2013</td>
             <td class="descongelado">5/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a> <a href="#" class="button red" title="ELIMINAR">X</a></td>
           </tr>
           <tr>
             <td class="nombre">Perico Perez 04</td>
             <td class="fecha_registro">18/10/2013</td>
             <td class="descongelado">5/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a> <a href="#" class="button red" title="ELIMINAR">X</a></td>
           </tr>
           <tr>
             <td class="nombre">Perico Perez 04</td>
             <td class="fecha_registro">18/10/2013</td>
             <td class="descongelado">5/15</td>
-            <td class="nota"><span class="mini_icon nota"></span></td>
+            <td class="nota"><span class="mini_icon nota" title="Usuario pendiente de registro. Caducidad de invitación: 28/10/2013"></span></td>
             <td class="accion"><a href="#" class="button green" title="RECORDAR A TODOS">recordar a todos</a> <a href="#" class="button red" title="ELIMINAR">X</a></td>
           </tr>
         </tbody>
