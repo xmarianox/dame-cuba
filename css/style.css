@@ -79,9 +79,9 @@ article { margin: 35px auto; width: 1022px; overflow: hidden; }
 .info_sis h1 { background: url(../images/icon_saldo_congelado.png) 0 0 no-repeat; padding-left: 50px; height: 50px; font-size: 27px; font-weight: bold; padding-top: 20px; margin-bottom: 30px; }
 .info_sis p { font-size: 15px; line-height: 20px; font-weight: normal; }
 .content_saldo { background: url(../images/bg_content_saldo.png) 0 0 no-repeat; width: 331px; height: 140px; overflow: hidden; float: right; margin-top: 5px; padding-top: 16px; padding-left: 88px; color: #FFF; }
-.content_saldo h2 { text-transform: uppercase; font-size: 18px; line-height: 22px; margin-bottom: 16px; margin-left: 5px; }
-.content_saldo .saldo { color: #FFCC00; display: block; font-size: 55px; line-height: 50px; font-weight: bold; margin-bottom: 13px; }
-.content_saldo .saldo span { font-weight: normal; font-size: 34px; line-height: 30px; }
+.content_saldo h2 { text-transform: uppercase; font-size: 20px; line-height: 22px; margin-bottom: 16px; margin-left: 5px; }
+.content_saldo .saldo { color: #FFCC00; display: block; font-size: 63px; line-height: 50px; font-weight: bold; margin-bottom: 13px; }
+.content_saldo .saldo span { font-weight: normal; font-size: 38px; line-height: 30px; }
 .content_saldo a { color: #FFF; font-size: 16px; }
 .content_saldo a:hover { text-decoration: none; }
 /* sistema */
@@ -160,7 +160,7 @@ article h2 { font-size: 27px; font-weight: bold; text-transform: uppercase; marg
 .content_descongelaria p { text-transform: uppercase; font-size: 13px; margin-bottom: 5px; }
 .content_descongelaria .number { font-size: 35px; line-height: 25px; }
 .content_botones { width: 146px; float: right; padding-top: 18px; }
-.content_botones .button { width: 125px; text-align: center; padding: 5px 10px; font-weight: normal; margin: 2px 0; text-transform: uppercase; font-size: 12px }
+.content_botones .button { width: 125px; text-align: center; padding: 5px 6px; font-weight: bold; margin: 2px 0; text-transform: uppercase; font-size: 12px }
 /*
 *	Contenido amigos en tu red
 */
@@ -168,7 +168,7 @@ article h2 { font-size: 27px; font-weight: bold; text-transform: uppercase; marg
 #amigos_invitados header h3 { display: block; float: left; font-weight: bold; font-size: 20px; }
 #amigos_invitados header h3 .number { font-size: 35px; line-height: 26px; }
 .buscador { float: right; padding-left: 25px; background: url(../images/icon-seach.png) 0 5px no-repeat; }
-.buscador input { border: 2px solid #2A7AA7; border-radius: 6px; background: #F3F4F5; width: 170px; height: 32px; padding-left: 13px; color: #999999; }
+.buscador input { border: 1px solid #2A7AA7; border-radius: 6px; background: #F3F4F5; width: 170px; height: 32px; padding-left: 13px; color: #999999; }
 /** =============================================
 * - SCROLLBAR GOOGLE CHROME
 * - SCROLLBAR BASE CSS
@@ -222,12 +222,12 @@ th.descongelado, td.descongelado { width: 104px }
 th.nota, td.nota { width: 64px }
 th.accion { width: 173px } 
 td.accion { width: 158px }
-td.accion .button.green { width: 100px; padding: 5px 2px; font-weight: normal; margin-right: 5px; font-size: 11px; }
+td.accion .button.green { width: 100px; padding: 5px 2px; font-weight: bold; margin-right: 5px; font-size: 11px; }
 td.accion .button.red { width: 21px; padding: 5px 5px 3px;  }
 /* botones inferiores */
 .footer_btns { width: 100%; overflow: hidden; background-color: #E5EFF5; padding: 12px 25px; }
 .footer_btns .control { float: right; }
-.footer_btns .button { width: 150px; text-align: center; padding: 5px 10px; font-weight: normal; margin: 2px 0; text-transform: uppercase; font-size: 12px; }
+.footer_btns .button { width: 150px; text-align: center; padding: 5px 10px; font-weight: bold; margin: 2px 0; text-transform: uppercase; font-size: 12px; }
 /*
 *	pendientes_de_registro
 */
@@ -323,7 +323,7 @@ td.accion .button.red { width: 21px; padding: 5px 5px 3px;  }
 */
 #menu_tabs_descongelar { overflow: hidden; width: 870px; margin: 0 auto; }
 #menu_tabs_descongelar li a { float: left; margin: 0 19px; width: 252px; height: 60px; border: 1px solid #2A7AA7; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom: 0; overflow: hidden; padding: 10px; display: block; text-decoration: none; }
-#menu_tabs_descongelar li.ui-tabs-active a { background: #E5EFF5; }
+#menu_tabs_descongelar li.ui-tabs-active a { background: #E5EFF5; border: 1px solid #E5EFF5; }
 #menu_tabs_descongelar li.first_tab a { padding-left: 18px; }
 /* iconos para los tabs */
 .icon_tab { display: inline-block; background: url(../images/icons_tabs.png) no-repeat; height: 36px; width: 32px; text-indent: -9999px; float: left; }
@@ -380,7 +380,7 @@ footer .content-btn .button { font-size: 19px; padding: 14px 41px; }
 #canjear_cupon form { width: 648px; margin: 0 auto; border-bottom: 0; }
 #canjear_cupon form .icon_tab { margin-top: 5px; }
 #canjear_cupon form input { width: 347px; margin-left: 12px; margin-right: 22px; }
-#canjear_cupon form .button { padding: 11px 73px; font-size: 16px; color: #51C445; }
+#canjear_cupon form .button { padding: 8px 65px; font-size: 20px; color: #1ab209; }
 #canjear_cupon .resumen .control { width: 940px }
 #canjear_cupon .resumen .control h3 { margin-right: 28px; }
 #canjear_cupon .resumen .control ul { float: left; }
@@ -416,7 +416,7 @@ footer .content-btn .button { font-size: 19px; padding: 14px 41px; }
 #accodion_historial .control { float: left; margin-right: 6px; }
 #accodion_historial .control.last { margin-left: 22px; }
 #accodion_historial .control label { font-size: 14px; }
-#accodion_historial .date_picker { background: #FFF url(../images/sprite-historial.png) -8px -71px no-repeat; border: 2px solid #2A7AA7; border-radius: 7px; width: 114px; height: 29px; padding-left: 25px; display: block; color: #2A7AA7; }
+#accodion_historial .date_picker { background: #FFF url(../images/sprite-historial.png) -8px -71px no-repeat; border: 1px solid #2A7AA7; border-radius: 7px; width: 114px; height: 29px; padding-left: 25px; display: block; color: #2A7AA7; }
 /* datepicker custom styles */
 #ui-datepicker-div { background: #FFF; border: 1px solid #2A7AA7; border-radius: 7px; padding: 10px; width: 200px; display: none; }
 #ui-datepicker-div .ui-state-default { color: #2A7AA7; text-decoration: none; }
@@ -424,7 +424,7 @@ footer .content-btn .button { font-size: 19px; padding: 14px 41px; }
 #ui-datepicker-div .ui-datepicker-prev { display: inline-block; float: left; cursor: pointer; }
 #ui-datepicker-div .ui-datepicker-next { display: inline-block; float: right; cursor: pointer; }
 .styled-select select { background: transparent; width: 188px; padding-left: 32px; font-size: 13px; line-height: 1; border: 0; border-radius: 0; height: 26px; -webkit-appearance: none; color: #2A7AA7; }
-.styled-select { display: block; width: 192px; height: 29px; border-radius: 6px; background: #FFF url(../images/sprite-historial.png) -3px -44px no-repeat; border: 2px solid #2A7AA7; overflow: hidden; }
+.styled-select { display: block; width: 192px; height: 29px; border-radius: 6px; background: #FFF url(../images/sprite-historial.png) -3px -44px no-repeat; border: 1px solid #2A7AA7; overflow: hidden; }
 /* THS */
 #accodion_historial .scrollbar-chrome { max-height: 226px; background: #FFF; }
 #accodion_historial thead th { height: 30px; padding: 11px 0 6px;  }
