@@ -29,7 +29,7 @@
 					<li class="email">pericoperez@gmail.com</li>
 					<li class="tel">+ (53) 53 55 55 55</li>
 					<li class="saldo">15 <span>USD</span></li>
-					<li class="content_btn"><a href="#" class="button red" title="ELIMINAR">X</a></li>
+					<li class="content_btn"><a href="#" class="button delete" title="ELIMINAR">X</a></li>
 				</ul>
 			</li>
 
@@ -40,7 +40,7 @@
 					<li class="email">pericoperez@gmail.com</li>
 					<li class="tel">+ (53) 53 55 55 55</li>
 					<li class="saldo">15 <span>USD</span></li>
-					<li class="content_btn"><a href="#" class="button red" title="ELIMINAR">X</a></li>
+					<li class="content_btn"><a href="#" class="button delete" title="ELIMINAR">X</a></li>
 				</ul>
 			</li>
 
@@ -51,7 +51,7 @@
 					<li class="email">pericoperez@gmail.com</li>
 					<li class="tel">+ (53) 53 55 55 55</li>
 					<li class="saldo">15 <span>USD</span></li>
-					<li class="content_btn"><a href="#" class="button red" title="ELIMINAR">X</a></li>
+					<li class="content_btn"><a href="#" class="button delete" title="ELIMINAR">X</a></li>
 				</ul>
 			</li>
 		</ul>

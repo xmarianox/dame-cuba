@@ -65,6 +65,9 @@ header nav ul li.divider { margin: 0; color: #939598; line-height: 36px; font-si
 /* button red */
 .button.red { background-color: #CD221E }
 .button.red:hover { background-color: #C2413E }
+/* button delete */
+.button.delete { background: #CD221E url(../images/delete-icon.png) 5px 6px no-repeat; text-indent: -9999px; width: 21px; height: 21px; overflow: hidden; padding: 0 !important; vertical-align: middle; }
+.button.delete:hover { background: #C2413E url(../images/delete-icon.png) 5px 6px no-repeat; }
 /* button green */
 .button.green { background-color: #1AB209 }
 .button.green:hover { background-color: #51C445 }
