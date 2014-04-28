@@ -1,5 +1,5 @@
 <header>
-    <h3><span class="mini_icon friend"></span> <span class="number">20</span> Amigos en tu red</h3>
+    <h3><span class="mini_icon friend_blue"></span> <span class="number">20</span> Amigos en tu red</h3>
 
     <div class="buscador">
         <input type="text" name="buscador_amigos" id="buscador_amigos" placeHolder="Busca a tu amigo">

@@ -109,6 +109,7 @@ article h2 { font-size: 27px; font-weight: bold; text-transform: uppercase; marg
 .mini_icon.nota { background: url(../images/icon_nota.png) 0 0 no-repeat; width: 24px; height: 21px; }
 /* icono amigo red */
 .mini_icon.friend_red { background: url(../images/icon_friend_red.png) 0 0 no-repeat; width: 28px; height: 31px; }
+.mini_icon.friend_blue { background: url(../images/icon_friend_blue.png) 0 0 no-repeat; width: 28px; height: 31px; }
 .mini_icon.friend_white { background: url(../images/icon_friend_white.png) 0 0 no-repeat; width: 24px; height: 27px; }
 .icon_canjea { display: inline-block; background: url(../images/sprite-canje.png) no-repeat; height: 53px; width: 52px; text-indent: -9999px; }
 .icon_canjea.descongela { background-position: -4px -63px; height: 52px; width: 43px; } 

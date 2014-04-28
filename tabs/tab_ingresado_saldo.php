@@ -1,5 +1,5 @@
 <header>
-    <h3><span class="mini_icon friend"></span> <span class="number">10</span> Han ingresado saldo</h3>
+    <h3><span class="mini_icon friend_blue"></span> <span class="number">10</span> Han ingresado saldo</h3>
 
     <div class="buscador">
         <input type="text" name="buscador_amigos" id="buscador_amigos" placeHolder="Busca a tu amigo">
